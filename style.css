@@ -162,11 +162,13 @@ section {
   margin: 0 10rem ;
   box-sizing: border-box;
   min-height: fit-content;
+  border-bottom: 0.5px solid black;
 }
 
 section:hover{
     background-color: white;
-    transition: all 2s ease-in;
+    box-shadow: 0 0 0 50vmax rgba(0, 0, 0, .5);
+    transition: all 0.8s ease-in;
     
 }
 
@@ -343,6 +345,7 @@ section:hover{
 
 .about-pic {
   border-radius: 2rem;
+  background: burlywood;
 }
 
 .arrow {
@@ -354,7 +357,6 @@ section:hover{
 .details-container {
   padding: 1.5rem;
   flex: 1;
-  background: white;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
@@ -419,7 +421,6 @@ article .icon {
 
 .color-container {
   border-color: rgb(163, 163, 163);
-  background: rgb(250, 250, 250);
 }
 
 .project-img {
@@ -485,7 +486,6 @@ article .icon {
 }
 
 footer {
-  height: 26vh;
   padding-top: 0.3rem;
 }
 
