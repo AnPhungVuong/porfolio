@@ -161,9 +161,6 @@ section {
   height: auto;
   box-sizing: border-box;
   min-height: fit-content;
-  display: flex; /* Added to enable flex layout */
-  justify-content: center; /* Center horizontally */
-  align-items: center;
   border-bottom: 0.5px solid black;
 }
 
