@@ -5,6 +5,7 @@
 * {
   margin: 0;
   padding: 0;
+  
 }
 
 body {
@@ -14,6 +15,7 @@ body {
 
 html {
   scroll-behavior: smooth;
+  
 }
 
 p {
@@ -48,7 +50,7 @@ nav {
 .nav-links {
   gap: 2rem;
   list-style: none;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 a {
@@ -156,7 +158,7 @@ a:hover {
 
 section {
   padding: 4vh 4vh;
-  height: 96vh;
+  height: auto;
   margin: 0 10rem ;
   box-sizing: border-box;
   min-height: fit-content;
@@ -179,7 +181,7 @@ section:hover{
 #profile {
   display: flex;
   justify-content: center;
-  gap: 10rem;
+  gap: 5rem;
   height: 80vh;
 }
 
@@ -196,7 +198,7 @@ section:hover{
 }
 
 .section__text p {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .section__text__p1 {
@@ -341,7 +343,6 @@ section:hover{
 
 .about-pic {
   border-radius: 2rem;
-  width: 450px;
 }
 
 .arrow {
@@ -361,7 +362,7 @@ section:hover{
 }
 
 .section-container {
-  gap: 4rem;
+  gap: 10rem;
   height: 80%;
 }
 
@@ -484,7 +485,7 @@ article .icon {
 }
 
 footer {
-  height: 5vh;
+  height: 26vh;
   padding-top: 0.3rem;
 }
 
