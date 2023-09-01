@@ -168,9 +168,9 @@ section {
 
 
 section:hover{
-    background-color: white;
+    background-color: #FFFFF4;
     box-shadow: 0 0 0 50vmax rgba(0, 0, 0, .5);
-    transition: all 0.8s ease-in;
+    transition: all 2s ease-in;
     
 }
 
